@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://getbootstrap.com/2.3.2/assets/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+<div id="tic-tac-toe">
+<div class="span3 new_span">
+<div class="row">
+<h1 class="span3">Tic Tac Toe</h1>
+<div class="span3">
+    <div class="input-prepend input-append">
+        <span class="btn add-on win_text" id="nohover">O won</span><strong id="o_win" class="win_times add-on">0</strong><span class="add-on btn" id="nohover">time(s)</span>
+    </div>
+    <div class="input-prepend input-append">
+        <span class="btn add-on win_text" id="nohover">X won</span><strong id="x_win" class="win_times add-on">0</strong><span class="add-on btn" id="nohover">time(s)</span>
+    </div>
+    <div class="input-prepend input-append">
+        <span class="btn add-on win_text" id="nohover">Board</span><input class="input_size" type="number" min="3" max="14" placeholder="0"/>
+        <span class="btn add-on" style="width: 43px" id="nohover">Length</span>
+    </div>
+    <div class="input-prepend input-append">
+        <button class="button_size btn btn-primary" id="playgame" style="border-radius: 5px; font-size: 14px; height:35px; margin-right: 20px; font-weight: 600">PLAY</button>
+        <button class="button_size btn btn-primary" id="restartgame" style="border-radius: 5px; font-size: 14px; height:35px; font-weight: 600">RESTART</button>
+    </div>
+</div>
+
+
+</div>   
+</div>
+</div>
+<div class="gridparent gamespace">
+</div>
+  <script src='https://code.jquery.com/jquery-1.7.2.min.js'></script>
+  <script  src="js/index.js"></script>
+</body>
+
+</html>

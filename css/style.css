@@ -1,0 +1,35 @@
+/*******tic-tac-toe******/
+.btnplus .disable {text-transform:uppercase; font-size:30px; font-family: Georgia, "Times New Roman", Times, serif;}
+.gridparent {display: grid; margin:0 auto 20px auto; max-width: 1200px; grid-gap: 10px 20px; justify-content: center}
+/* #game li {padding:0; list-style:none; text-align:center; margin-bottom:20px; color:#fff; height:60px; line-height:60px; font-size:40px; color:#ccc} */
+/* #game li.disable{color:#fff} */
+/* #game {padding:0; clear:both} */
+.new_span {width:226px; margin: 0 auto; padding: 10px;}
+/* #reset { padding:5px 10px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:20px; clear:both; cursor:pointer; float:left; text-align:center; text-transform:uppercase; outline:none; width:204px} */
+/* .input-prepend span.pre_text {width:55px}
+.input-prepend .span1{width:93px}
+.input-prepend {margin-bottom:10px} */
+.clr {clear:both; height:0}
+#tic-tac-toe h1 {text-align:center; font-size:28px; padding-left: 10px}
+/* #tic-tac-toe li::-moz-selection {background:none;color:#000;} */
+/* #tic-tac-toe li::-webkit-selection {background:none;color:#000;} */
+#tic-tac-toe {width:100%; margin:0 auto; height: 100%; display: grid; max-width: 1200px;}
+.input-append .win_times {background:#fff; width:101px}
+.input-append .win_text {width:52px}
+#nohover:hover{background-color: #eeeeee; background-position: 0px}
+.input_size {width: 97px; text-align: center}
+.button_size {width: 105px; border-radius: 10px 0px 0px 10px}
+::-webkit-input-placeholder {text-align: center;}
+:-moz-placeholder {text-align: center;} /* Firefox 18- */
+::-moz-placeholder {text-align: center;} /* Firefox 19+ */
+:-ms-input-placeholder {text-align: center;}
+.divX {width: 70px; height: 70px; margin: 0; padding: 0}
+.btnplus {width: 70px; height: 70px; text-align: center; line-height: 60px; font-size: 40px; color:#ccc;}
+.btnplus:hover {color:#A9A9A9}
+.btnplus .disable:active {color:#fff}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/*******tic-tac-toe END******/
